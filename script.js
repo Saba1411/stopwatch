@@ -54,6 +54,7 @@ const timer=()=>
 
 //Start
 start.addEventListener('click',()=>{
+    clearInterval(timeInterval)
     timeInterval=setInterval(timer,10);
 })
 
